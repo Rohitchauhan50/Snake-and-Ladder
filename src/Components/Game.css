@@ -2,36 +2,15 @@
     margin: 0px;
     padding: 0px;
 }
-.main{
-    height: 100vh;
-    display: inline-block;
-    justify-content: center;
-}
-.Container{
-    width: 50vw;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
-    position: absolute;
-    top: 10vh;
-    left: 15vw;
-    background-image: url('');
-    background-size: cover;
-    background-position: 1px;
-}
-#player1{
-    grid-row: 1/span 10;
-}
-span{
-    /* background-color: aqua; */
-    /* border: 2px solid black; */
-    height: 50px;
-    
-    
-}
-.player2{
- height: 200px;
-}
-.player1{
-    height: 200px;
 
+.Container{
+    margin: 10px;
+    width: 48.5vw;
+    height: 98vh;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    background-image: url('./images.jpeg');
+    background-size: cover;
+}
+td{
+    border: 2px solid white;
 }
