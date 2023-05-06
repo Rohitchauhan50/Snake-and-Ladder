@@ -4,13 +4,60 @@
 }
 
 .Container{
-    margin: 10px;
-    width: 48.5vw;
+    margin: 1px 0px 0px 60px;
+    width: 48vw;
     height: 98vh;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
     background-image: url('./images.jpeg');
     background-size: cover;
+    /* border: 10px solid black; */
 }
 td{
     border: 2px solid white;
+}
+
+.bottom{
+    width: 48vw;
+    height: 7vh;
+    color: wheat;
+    margin: 0px 60px 100px; 
+    background-color: rgba(33, 34, 51, 0.9);
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.items li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px 15px 0px;
+    cursor: pointer;
+    justify-content: end;
+    
+}
+.players{
+    background-color: red;
+    position: absolute;
+    top: 8.5%;
+    right: 0%;
+    width: 46.5vw;
+    height: 12ch;
+    
+}
+.match{
+    background-color: green;
+    position: absolute;
+    top: 24.3%;
+    right: 0%;
+    width: 46.5vw;
+    height: 69ch;
+
+}
+.line{
+    height: 105%;
+    background-color: blue;
+    position: absolute;
+    top: 8.5%;
+    width: 4.5%;
 }
