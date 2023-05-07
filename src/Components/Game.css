@@ -4,23 +4,20 @@
 }
 
 .Container{
-    margin: 1px 0px 0px 60px;
-    width: 48vw;
-    height: 98vh;
+    margin: 1px 0px 0px 123px;
+    width: 655px;
+    height: 655px;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
     background-image: url('./images.jpeg');
     background-size: cover;
     /* border: 10px solid black; */
-}
-td{
-    border: 2px solid white;
 }
 
 .bottom{
     width: 48vw;
     height: 7vh;
     color: wheat;
-    margin: 0px 60px 100px; 
+    margin: 0px 123px 100px; 
     background-color: rgba(33, 34, 51, 0.9);
     align-items: center;
     display: flex;
@@ -41,16 +38,20 @@ td{
     position: absolute;
     top: 8.5%;
     right: 0%;
-    width: 46.5vw;
-    height: 12ch;
+    width: 572px;
+    height: 104px;
     
+}
+td{
+    color: rgba(33, 34, 51, 0);
+    /* border: 2px solid black; */
 }
 .match{
     background-color: green;
     position: absolute;
     top: 24.3%;
     right: 0%;
-    width: 46.5vw;
+    width: 572px;
     height: 69ch;
 
 }
@@ -58,6 +59,15 @@ td{
     height: 105%;
     background-color: blue;
     position: absolute;
+    top: 57px;
+    width: 60px;
+    margin: 1px 0px 0px 0px;
+}
+.line2{
+    height: 105%;
+    background-color: rgb(238, 255, 0);
+    position: absolute;
     top: 8.5%;
     width: 4.5%;
+    margin: 1px 0px 0px 60px;
 }
